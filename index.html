@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Activity Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="background-animation"></div>
+
+  <nav>
+    <h1><i class="fas fa-tasks"></i> Student Activity Tracker</h1>
+  </nav>
+
+  <div class="container">
+    <header id="welcome-section">
+      <h2>Activity Dashboard</h2>
+      <p>Track, manage, and complete your learning goals efficiently.</p>
+    </header>
+
+    <div class="progress-card">
+      <h3><i class="fas fa-chart-line"></i> Overall Progress</h3>
+      <p id="progress-text">0 out of 0 activities completed</p>
+      <div class="progress-bar-container">
+        <div id="progress-fill"></div>
+      </div>
+    </div>
+
+    <section id="activity-list">
+      <h3><i class="fas fa-list-check"></i> Daily Tasks</h3>
+      <div id="tasks-container">
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
